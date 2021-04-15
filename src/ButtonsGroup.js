@@ -9,7 +9,7 @@ class ButtonsGroup extends React.Component {
         this.state = { chosen : 0 };
     }
 
-    /* Function to chenge the state by a given id */
+    /* Function to change the state by a given id */
     changeSelected = (id) => {
         this.setState( {chosen: id});
     }
