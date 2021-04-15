@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
       <h1>Choose Your Game</h1>
-      <ButtonsGroup names={['Chess', 'Poker', 'Black Jack', 'Go']}/>
+      {/* Here i choose the names of alla the buttons */}
+      <ButtonsGroup names={['Chess', 'Poker', 'Black Jack', 'Go', 'Pippo']}/>
     </div>
   );
 }
